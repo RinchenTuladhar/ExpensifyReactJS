@@ -1,0 +1,2 @@
+module.exports.entry	/Users/mikedhart/Desktop/Udemy/indecision-app/webpack.config.js	/^module.exports = {$/;"	property	line:3
+module.exports.output	/Users/mikedhart/Desktop/Udemy/indecision-app/webpack.config.js	/^  entry: ".\/src\/app.js",$/;"	property	line:4
