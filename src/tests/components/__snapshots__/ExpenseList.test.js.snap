@@ -2,6 +2,15 @@
 
 exports[`should render ExpenseList with empty message 1`] = `
 <div>
+  <p
+    className="total-calculator"
+  >
+    You have 
+    0
+     expenses, totalling
+     
+    $0.00
+  </p>
   <p>
     No expenses
   </p>
@@ -10,6 +19,15 @@ exports[`should render ExpenseList with empty message 1`] = `
 
 exports[`should render ExpenseList with expenses 1`] = `
 <div>
+  <p
+    className="total-calculator"
+  >
+    You have 
+    3
+     expenses, totalling
+     
+    $115.00
+  </p>
   <ExpenseListItem
     amount={2500}
     createdAt={0}
@@ -31,5 +49,22 @@ exports[`should render ExpenseList with expenses 1`] = `
     id="3"
     note=""
   />
+</div>
+`;
+
+exports[`should return 0 if no expenses return 1`] = `
+<div>
+  <p
+    className="total-calculator"
+  >
+    You have 
+    0
+     expenses, totalling
+     
+    $0.00
+  </p>
+  <p>
+    No expenses
+  </p>
 </div>
 `;

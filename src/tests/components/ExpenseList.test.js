@@ -12,3 +12,12 @@ test("should render ExpenseList with empty message", () => {
   const wrapper = shallow(<ExpenseList expenses={[]} />);
   expect(wrapper).toMatchSnapshot();
 });
+
+test("should return 0 if no expenses return", () => {
+  const wrapper = shallow(<ExpenseList expenses={[]} />);
+  expect(wrapper).toMatchSnapshot();
+});
+
+test("should correctly add up a single expense", () => {});
+
+test("should correcty add up multiple expense", () => {});
